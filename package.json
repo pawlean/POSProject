@@ -1,0 +1,22 @@
+{
+	"name": "pos-system",
+	"version": "1.0.0",
+	"description": "MERN POS system",
+	"main": "server.js",
+	"scripts": {
+		"start": "node backend/server"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/SergioVzqz/POSProject.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/SergioVzqz/POSProject/issues"
+	},
+	"homepage": "https://github.com/SergioVzqz/POSProject#readme",
+	"dependencies": {
+		"express": "^4.17.1"
+	}
+}
