@@ -1,6 +1,7 @@
 {
 	"name": "frontend",
 	"version": "0.1.0",
+	"proxy": "https://5000-pink-halibut-o94i2nib.ws-us18.gitpod.io/",
 	"private": true,
 	"dependencies": {
 		"@testing-library/jest-dom": "^5.11.4",

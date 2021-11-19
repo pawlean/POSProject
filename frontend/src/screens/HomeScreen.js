@@ -8,9 +8,7 @@ const HomeScreen = () => {
 
 	useEffect(() => {
 		const fetchProducts = async () => {
-			const { data } = await axios.get(
-				"https://5000-pink-halibut-o94i2nib.ws-us18.gitpod.io/api/products"
-			);
+			const { data } = await axios.get("/api/products");
 			setProducts(data);
 		};
 
